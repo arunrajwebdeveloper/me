@@ -3,9 +3,27 @@
 :root {
   --primary-color: #01ff51;
   --secondary-color: #1f1f1f;
+  --container: 760px;
 }
 
 @theme {
+  --font-sans: "Inter", sans-serif;
   --color-primary: var(--primary-color);
   --color-secondary: var(--secondary-color);
+}
+
+@utility box-container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 2rem;
+  max-width: var(--container);
+
+  @variant md {
+    padding-inline: 3rem;
+  }
+}
+
+body,
+#root {
+  width: 100%;
 }
