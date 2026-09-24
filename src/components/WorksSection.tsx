@@ -8,6 +8,7 @@ const WorksSection = () => {
       <Title className="text-primary text-7xl md:text-9xl font-black mb-10 md:mb-20">
         works.
       </Title>
+      <p className="text-primary text-sm mb-4">** dummy projects</p>
       <Works />
     </Section>
   );
