@@ -3,7 +3,14 @@ const Header = () => {
     <header className="bg-primary">
       <div className="box-container h-14 flex items-center justify-between">
         <h2 className="text-xl font-semibold text-secondary">arunraj.</h2>
-        <a href="" className="text-base font-medium text-secondary">
+        <a
+          href="."
+          onClick={(e) => {
+            e.preventDefault();
+            alert("Will add soon.");
+          }}
+          className="text-base font-medium text-secondary"
+        >
           connect.
         </a>
       </div>
