@@ -9,7 +9,7 @@ const HeroSection = () => {
         namaste.
       </Title>
       <Text className="text-secondary text-xl font-bold mb-10">
-        i'm Arun Raj, a Full-Stack Developer specializing in building
+        i'm Arun Raj, a full-stack developer specializing in building
         high-performance, visually engaging web applications using the MERN
         stack.
       </Text>
